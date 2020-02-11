@@ -3,7 +3,7 @@ require_relative 'boot'
 require "rails"
 
 # Include each railties manually, excluding `active_storage/engine`
-require "active_model/railtie"
+# require "active_model/railtie"
 require "active_job/railtie"
 require "active_record/railtie"
 # require "active_storage/engine"
